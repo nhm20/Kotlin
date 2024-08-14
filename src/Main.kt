@@ -1,5 +1,7 @@
+//var msg="hello"
 fun main(args:Array<String>) {
-    var ab=40
-    var ba:Int
-    println(ab)
+//    var msg="hello"
+    println(msg)
 }
+var msg="hello"
+//println(msg)
