@@ -1,7 +1,10 @@
-//var msg="hello"
-fun main(args:Array<String>) {
-//    var msg="hello"
-    println(msg)
+class Person{
+    var kotlin="hello"
+    fun displayInfo(){
+        println(kotlin)
+    }
 }
-var msg="hello"
-//println(msg)
+fun main(){
+    val person= Person()
+    person.displayInfo()
+}
