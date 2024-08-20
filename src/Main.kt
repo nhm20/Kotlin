@@ -1,7 +1,8 @@
 class Person{
-    var kotlin="hello"
+    var name:String="John Doe"
+    var age:Int=20
     fun displayInfo(){
-        println(kotlin)
+        println("Name : $name, Age:$age")
     }
 }
 fun main(){
