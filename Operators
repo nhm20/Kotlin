@@ -1,0 +1,51 @@
+fun main(){
+    var a=10;
+    var b=20;
+    var isTrue=true;
+    var isFalse=false;
+    //arithmetic operators
+    println("Addition $a + $b: ${a+b}"); //a.plus(b);
+    println("product $a * $b: ${a*b}");	//a.times(b);
+    println("Subtraction $a - $b: ${a-b}"); //a.minus(b);
+    println("Divison $a / $b: ${a/b}");	//a.div(b);
+    println("Modulus $a % $b: ${a%b}");
+    println("Modulus $a % $b: ${a.rem(b)}\n");
+
+
+    //relational operators
+    println("Greater than $a > $b: ${a>b}"); //a.compareTo(b)>0;
+    println("Less than $a < $b: ${a<b}"); //a.compareTo(b)>0;
+    println("Greater than equal $a >= $b: ${a>=b}"); //a.compareTo(b)>0;
+    println("Less than $a <= $b: ${a<=b}"); //a.compareTo(b)>0;
+    println("Equal to $a == $b: ${a==b}"); //a?.eqauls(b)?:(b===null);
+    println("Not Equal to than $a != $b: ${a!=b} \n"); //(!a?.eqauls(b)?:(b===null))>0;
+
+
+    //assignment operators
+    var x=10;
+    var y=20;
+    x+=y;
+
+    println("Addition $a += $b: ${x}"); //a.plus(b);
+    x*=y;
+    println("product $a *= $b: ${x}");	//a.times(b);
+    x-=y;
+    println("Subtraction $a -= $b: ${x}"); //a.minus(b);
+    x/=y;
+    println("Divison $a /= $b: ${x}");	//a.div(b);
+    x%=y;
+    println("Modulus $a %= $b: ${x}");
+
+    // unary operators;
+    a=10;
+    println(" +$a: ${+a}");
+    println(" -$a: ${-a}");
+    println(" ++$a: ${++a}");
+    println(" --$a: ${--a}");
+//    println(" !$a: ${!a}");
+
+//     a = 10
+//    a=!a
+//    println(" !$a: $a")
+
+}
